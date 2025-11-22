@@ -2,11 +2,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ErrorBoundary } from './components/ui/ErrorBoundary';
 import { ProtectedRoute } from './components/auth/ProtectedRoute';
-import { LoginPage } from './features/auth/pages/LoginPage';
+import { BentoLoginPage } from './features/auth/pages/BentoLoginPage';
 import { UnauthorizedPage } from './features/auth/pages/UnauthorizedPage';
-import { MainLayout } from './components/layout/MainLayout';
-import { DashboardPage } from './features/dashboard/pages/DashboardPage';
-import { TicketKanban } from './features/ticket-board/components/TicketKanban';
+import { BentoLayout } from './components/layout/BentoLayout';
+import { BentoDashboardPage } from './features/dashboard/pages/BentoDashboardPage';
+import { BentoTicketKanban } from './features/ticket-board/components/BentoTicketKanban';
 import { TicketListPage } from './features/ticket-board/pages/TicketListPage';
 import { SettingsPage } from './features/settings/pages/SettingsPage';
 import { AdminAgentsPage } from './features/admin/pages/AdminAgentsPage';
@@ -27,7 +27,7 @@ function App() {
                 <Router>
                     <Routes>
                         {/* Public Routes */}
-                        <Route path="/login" element={<LoginPage />} />
+                        <Route path="/login" element={<BentoLoginPage />} />
                         <Route path="/unauthorized" element={<UnauthorizedPage />} />
                         <Route path="/feedback/:token" element={<FeedbackPage />} />
 
@@ -36,12 +36,12 @@ function App() {
                             path="/"
                             element={
                                 <ProtectedRoute allowedRoles={['ADMIN', 'AGENT']}>
-                                    <MainLayout />
+                                    <BentoLayout />
                                 </ProtectedRoute>
                             }
                         >
-                            <Route path="dashboard" element={<DashboardPage />} />
-                            <Route path="kanban" element={<TicketKanban />} />
+                            <Route path="dashboard" element={<BentoDashboardPage />} />
+                            <Route path="kanban" element={<BentoTicketKanban />} />
                             <Route path="tickets/list" element={<TicketListPage />} />
                             <Route path="settings" element={<SettingsPage />} />
                             <Route

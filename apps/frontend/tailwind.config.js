@@ -20,37 +20,43 @@ module.exports = {
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
                 ring: 'hsl(var(--ring))',
-                background: '#0f172a', // Navy Background
-                foreground: 'hsl(var(--foreground))',
+                background: '#FAF9F6', // Creamy off-white
+                foreground: '#2D3748',
                 primary: {
-                    DEFAULT: '#39ff14', // Neon Green
-                    foreground: '#0f172a',
+                    DEFAULT: '#A8E6CF', // Soft mint green
+                    foreground: '#2D3748',
                 },
                 secondary: {
-                    DEFAULT: 'hsl(var(--secondary))',
-                    foreground: 'hsl(var(--secondary-foreground))',
+                    DEFAULT: '#FFE4B5', // Soft pale yellow
+                    foreground: '#2D3748',
                 },
                 destructive: {
-                    DEFAULT: 'hsl(var(--destructive))',
-                    foreground: 'hsl(var(--destructive-foreground))',
+                    DEFAULT: '#FFA07A',
+                    foreground: '#FFFFFF',
                 },
                 muted: {
-                    DEFAULT: 'hsl(var(--muted))',
-                    foreground: 'hsl(var(--muted-foreground))',
+                    DEFAULT: '#E8E8E8',
+                    foreground: '#6B7280',
                 },
                 accent: {
-                    DEFAULT: 'hsl(var(--accent))',
-                    foreground: 'hsl(var(--accent-foreground))',
+                    DEFAULT: '#B4D7FF', // Soft sky blue
+                    foreground: '#2D3748',
                 },
                 popover: {
-                    DEFAULT: 'hsl(var(--popover))',
-                    foreground: 'hsl(var(--popover-foreground))',
+                    DEFAULT: '#FFFFFF',
+                    foreground: '#2D3748',
                 },
                 card: {
-                    DEFAULT: 'hsl(var(--card))',
-                    foreground: 'hsl(var(--card-foreground))',
+                    DEFAULT: '#FFFFFF',
+                    foreground: '#2D3748',
                 },
-                warning: '#ffaa00', // Warning Orange
+                warning: '#FFE4B5',
+                'cream': '#FAF9F6',
+                'mint': '#A8E6CF',
+                'pale-yellow': '#FFE4B5',
+                'sky-blue': '#B4D7FF',
+                'soft-coral': '#FFB6B9',
+                'lavender': '#E8DAEF',
                 'navy-main': '#0f172a',
                 'neon-green': '#39ff14',
                 'neon-orange': '#ffaa00',
