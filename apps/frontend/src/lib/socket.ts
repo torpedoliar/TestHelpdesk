@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 
 // In a real app, this URL would come from env vars
-const SOCKET_URL = 'http://localhost:3000';
+const SOCKET_URL = 'http://localhost:5050';
 
 export const socket = io(SOCKET_URL, {
     autoConnect: true,

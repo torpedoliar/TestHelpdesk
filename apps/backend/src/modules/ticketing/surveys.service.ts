@@ -56,7 +56,7 @@ export class SurveysService {
             .getRawOne();
 
         return {
-            averageRating: parseFloat(result.averageRating) || 0,
+            averageRating: result && result.averageRating ? parseFloat(result.averageRating) : 0,
         };
     }
 }
