@@ -11,6 +11,7 @@ iDesk is a helpdesk ticketing system with a NestJS backend and a React frontend.
 
 ## Contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Tech stack](#tech-stack)
 - [Repository layout](#repository-layout)
@@ -20,6 +21,18 @@ iDesk is a helpdesk ticketing system with a NestJS backend and a React frontend.
 - [Testing](#testing)
 - [Project status](#project-status)
 - [License](#license)
+
+## Screenshots
+
+![Ticket kanban board](docs/screenshots/kanban.png)
+
+*Ticket kanban board*
+
+| | |
+|:---:|:---:|
+| ![Dashboard](docs/screenshots/dashboard.png)<br/>Dashboard | ![Sign-in](docs/screenshots/login.png)<br/>Sign-in |
+
+Captured from a local instance with demo tickets. Some dashboard figures are still placeholder values in the prototype.
 
 ## Features
 

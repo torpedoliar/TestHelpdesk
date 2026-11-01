@@ -11,6 +11,7 @@ iDesk adalah sistem tiket helpdesk dengan backend NestJS dan frontend React. Age
 
 ## Daftar isi
 
+- [Tangkapan layar](#tangkapan-layar)
 - [Fitur](#fitur)
 - [Teknologi](#teknologi)
 - [Struktur repositori](#struktur-repositori)
@@ -20,6 +21,18 @@ iDesk adalah sistem tiket helpdesk dengan backend NestJS dan frontend React. Age
 - [Pengujian](#pengujian)
 - [Status proyek](#status-proyek)
 - [Lisensi](#lisensi)
+
+## Tangkapan layar
+
+![Papan kanban tiket](docs/screenshots/kanban.png)
+
+*Papan kanban tiket*
+
+| | |
+|:---:|:---:|
+| ![Dashboard](docs/screenshots/dashboard.png)<br/>Dashboard | ![Halaman login](docs/screenshots/login.png)<br/>Halaman login |
+
+Diambil dari instalasi lokal dengan tiket demo. Sebagian angka di dashboard masih berupa nilai contoh dari prototipe.
 
 ## Fitur
 
